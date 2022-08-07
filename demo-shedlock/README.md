@@ -1,0 +1,1 @@
+docker run --name myapp-mysql-server -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_USER=miztli -e MYSQL_PASSWORD=4321 -e MYSQL_DATABASE=my-sample-db -p 3306:3306 -d mysql:8.0
